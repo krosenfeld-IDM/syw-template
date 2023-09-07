@@ -2,6 +2,8 @@ dependencies:
   - conda-forge::numpy
   - conda-forge::pip
   - conda-forge::python=3.9
+  - conda-forge::pandas
   - pip:
       - matplotlib==3.4.3
       - showyourwork==0.4.3
+      - sciris
