@@ -4,18 +4,23 @@ An open source scientific article created using the [showyourwork](https://githu
 
 # Usage
 
-## Installation
+## Installation of conda environment
 
-Install mamba environment:
+1. Set conda `channel_priority` to `strict`"
+```
+conda config --set channel_priority strict
+```
+2. Install mamba environment:
 ```bash
 mamba env create -f environment.yml --prefix ./env
 ```
-Clean and update the environment:
+
+If you change the `environment.yml` file you can clean and update the local environment:
 ```bash
 mamba env update --prefix ./env --file environment.yml  --prune
 ```
 
-## Build
+## Build the pdf
 
 ```bash
 showyourwork build --conda-frontend=mamba
