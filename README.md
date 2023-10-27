@@ -4,6 +4,8 @@ An open source scientific article created using the [showyourwork](https://githu
 
 # Usage
 
+To enable the github action workflow enable read/write permissions via `Settings` -> `Actions` -> `general` -> `Workflow permission`.
+
 ## Installation of conda environment
 
 1. Set conda `channel_priority` to `strict`"
