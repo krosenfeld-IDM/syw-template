@@ -2,10 +2,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - conda-forge::numpy
-  - conda-forge::pip
-  - conda-forge::python=3.9
-  - conda-forge::pandas
+  - python=3.9
+  - numpy
+  - pip
+  - pandas
   - notebook
   - pip:
       - matplotlib==3.4.3
