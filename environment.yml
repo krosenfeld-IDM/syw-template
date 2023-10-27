@@ -1,3 +1,6 @@
+channels:
+  - conda-forge
+  - defaults
 dependencies:
   - conda-forge::numpy
   - conda-forge::pip
