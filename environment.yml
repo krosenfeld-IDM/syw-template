@@ -1,3 +1,4 @@
+name: syw
 channels:
   - conda-forge
   - defaults
